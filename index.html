@@ -57,7 +57,7 @@
       }
     </style>
     <script type="text/javascript">
-      var num = 10;
+      var num = 15;
       function redirect() {
         num--;
         document.getElementById("num").innerHTML = num;
@@ -66,7 +66,7 @@
           location.href = "https://tangkunyin.com";
         }
       }
-      setInterval("redirect()", 1200);
+      setInterval("redirect()", 1000);
     </script>
   </head>
 
@@ -77,9 +77,9 @@
     </div>
     <div class="b">
       <h1>Warning Tip!</h1>
-      <h2>Something you tried to access has been found...</h2>
-      <p>Click to visit or automatically after<span id="num"></span>seconds</p>
+      <h2>Something you tried to access has not been found...</h2>
       <p>If you have any questions or need help, send mail to <a href="mailto:hello@tangkunyin.com">the master.</a></p>
+      <p>Automatically redirecting to the home page after <span id="num"></span> seconds</p>
     </div>
   </body>
 </html>
